@@ -1,0 +1,18 @@
+<center><button onclick="ledac()">Aydınlatma Aç</button>
+<button onclick="ledkapa()">Aydınlatma Kapat</button></center>
+<script>
+
+
+
+function ledac(){
+ fetch('https://us01.proxy.teleduino.org/api/1.0/2560.php?k=6E183E6D9A5A46B89BEDA09007273AAD&r=definePinMode&pin=7&mode=1')
+  .then(response => response.json())
+  .then(data => console.log(data)); 
+}
+
+
+function ledkapa(){
+ fetch('https://us01.proxy.teleduino.org/api/1.0/2560.php?k=6E183E6D9A5A46B89BEDA09007273AAD&r=definePinMode&pin=7&mode=0')
+  .then(response => response.json())
+  .then(data => console.log(data));
+}
