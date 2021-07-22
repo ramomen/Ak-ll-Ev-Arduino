@@ -13,7 +13,9 @@ Teknik Dokümantasyon
 * Proje aşamaları
 * Projenin yazılımı
 
-Web Sitemiz
+Docs : https://docs.google.com/document/d/e/2PACX-1vT8xrekELWpz3RT1o79PtWd2CFjrs1l-9J9wc1T1Cdj-bt-XCnOa0sxyLDKDGcM3zCwvUkIHXFRnNx-/pub
+
+Web Site:
 
 https://akillievim.tech/
 
